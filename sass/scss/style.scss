@@ -1,0 +1,17 @@
+@import './vars';
+@import './header';
+
+// header button {
+//     background: $primaryBtn;
+// }
+
+.contact {
+    // background: $primaryBtn;
+    // @include flexCenter(row, #b4d455);
+    // button {
+    //     background: $primaryBtn;
+    // }
+    @extend header;
+    background: lightcoral;
+}
+
